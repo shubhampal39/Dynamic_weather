@@ -27,8 +27,10 @@ app.get("/weather",(req,res) => {
     res.render('weather')
 })
 
-app.get("**",(req,res) => {
-    res.send("Welcome to 404");
+app.get("*",(req,res) => {
+    res.render("404error",{
+            errorMsg: 'Opps! Page Not Found'
+    });
 })
 
 app.listen(port,()=>{

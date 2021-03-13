@@ -133,3 +133,10 @@ footer p {
         margin-top: 3rem;
     }
 }
+
+/* error page style */
+
+.errorimg img {
+    width: 60rem;
+    height: 30rem;
+}
