@@ -121,19 +121,6 @@ footer p {
     font-size: 1.4rem;
 }
 
-/* responsive code */
-
-@media (max-width: 768px) {
-    .main_header_left {
-        height: auto;
-        margin: 5rem 0;
-    }
-    .main_header_right {
-        height: auto;
-        margin-top: 3rem;
-    }
-}
-
 /* error page style */
 
 .errorimg img {
@@ -186,7 +173,7 @@ footer p {
 /* temp show form */
 
 .tempInformation {
-    width: 40rem;
+    width: 50rem;
     /* center pe atta hai */
     margin: auto;
     min-height: 20rem;
@@ -252,4 +239,28 @@ sup {
 .data_hide {
     visibility: hidden;
     transition: all 0.3s linear;
+}
+
+/* responsive code */
+
+@media (max-width: 768px) {
+    .main_header_left {
+        height: auto;
+        margin: 5rem 0;
+    }
+    .main_header_right {
+        height: auto;
+        margin-top: 3rem;
+    }
+    .temp_form {
+        width: auto;
+    }
+    .tempInformation {
+        width: auto;
+    }
+
+    .main_layer .middle_layer p,
+    .main_layer .middle_layer .fa {
+        font-size: 5rem;
+    }
 }
